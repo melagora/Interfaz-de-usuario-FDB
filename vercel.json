@@ -5,6 +5,11 @@
     ],
     "routes": [
       { "src": "/(.*)", "dest": "main.py" }
-    ]
+    ],
+    "functions": {
+      "api/*.py": {
+        "runtime": "python3.13.0"
+      }
+    }
   }
   
